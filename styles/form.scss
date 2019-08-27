@@ -1,0 +1,17 @@
+@import './colors.scss';
+
+.Form {
+  width: 427px;
+  height: 804px;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  background-color: $primary-color;
+
+  h2 {
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 0.25px;
+    color: $strong-color;
+    text-align: center;
+  }
+}

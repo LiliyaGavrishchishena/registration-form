@@ -1,0 +1,50 @@
+@import './colors.scss';
+
+.View {
+  padding: 24px 40px;
+  color: $font-color;
+
+  .item {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  .input {
+    width: 347px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: $strong-color;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $font-color;
+    padding: 5px 15px;
+  }
+  .label {
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 0;
+    line-height: 40px;
+    transition: 0.3s;
+  }
+
+  button {
+    width: 347px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    background-color: $create-color;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.47px;
+    text-align: center;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+  .checkbox {
+    padding: 0;
+    display: flex;
+  }
+}
